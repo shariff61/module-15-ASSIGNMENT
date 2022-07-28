@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <!-- ----------navbar start ------------->
 
         <nav class="navbar navbar-expand-lg bg-light">
@@ -57,17 +57,60 @@
         <!------------- navbar end ---------------->
         <!-- -----------carousel start------------- -->
 
-        <div id="carouselExampleControls" class="carousel slide container position-relative py-5"
-            data-bs-ride="carousel">
+
+        <div id="carouselExampleControls" class="carousel slide   py-5" data-bs-ride="carousel">
+
             <div class="carousel-inner rounded-2">
                 <div class="carousel-item active">
-                    <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="she is communicators of our course">
+                    <img style="height:100vh" src="images/cover/cover-2.jpg" class="d-block w-100 img-fluid"
+                        alt="she is communicators of our course">
+                    <div
+                        class="carousel-caption  row row-cols-lg-1 row-cols-1 justify-content-center align-items-center h-100 ">
+                        <div>
+                            <h1 class="display-4 fw-bold"><span class="text-danger">Get Started </span> to
+                                learn with
+                                Us</h1>
+                            <p class="h6">If you want to learn skill development then you can join in our
+                                course..And if you want to know more about details about course,
+                                please
+                                click the link...</p>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/cover/cover-1.png" class="d-block w-100" alt="she is communicators of our course">
+                    <img style="height:100vh" src="images/cover/cover-1.png" class="d-block w-100 img-fluid"
+                        alt="she is communicators of our course">
+                    <div
+                        class="carousel-caption d-flex row row-cols-lg-1 row-cols-1 justify-content-center align-items-center h-100">
+                        <div>
+                            <h1 class="fw-bold"><span class="text-danger">Get Started </span> to
+                                learn with
+                                Us</h1>
+                            <p>If you want to learn skill development then you can join in our
+                                course..And if you want to know more about details about course,
+                                please
+                                click the link...</p>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="she is communicators of our course">
+                <div class="carousel-item ">
+                    <img style="height:100vh" src="images/cover/cover-3.jpg" class="d-block w-100 img-fluid "
+                        alt="she is communicators of our course">
+                    <div
+                        class="carousel-caption row  row-cols-lg-2 h-100 row-cols-1 justify-content-center align-items-center ">
+                        <div>
+                            <h1 class=" h2 fw-bold"><span class="text-danger">Get Started </span> to
+                                learn with
+                                Us</h1>
+                            <p>If you want to learn skill development then you can join in our
+                                course..And if you want to know more about details about course,
+                                please
+                                click the link...</p>
+                            <button class="btn btn-primary">Get Started</button>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -83,16 +126,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
 
-            <!-- -----header text in carousel----- -->
-            <div class="position-absolute top-50 start-50 text-center text-white w-50 translate-middle ">
-                <h1 class="display-2 fw-bold"><span class="text-danger">Get Started </span> to learn with Us</h1>
-                <p>If you want to learn web development then you can join in our
-                    course..it's
-                    serious course..you can
-                    learn so much from our course...And if you want to know more about details about course, please
-                    click the link...</p>
-                <button class="btn btn-primary btn-lg">Get Started</button>
-            </div>
+
         </div>
 
         <!-- -----------carousel end------------- -->
@@ -100,19 +134,23 @@
     </header>
     <main class="container">
         <!-- Our Popular course -->
-        <div class="w-50 mx-auto text-center my-5">
-            <h2 class="display-5 fw-semibold ">We Have some popular course</h2>
-            <p>We have lot of course..but we have some popular course which course are take lot of students...here is
-                some popular course...</p>
+
+        <div class="row row-cols-lg-2 row-cols-1 justify-content-center align-items-center text-center my-5">
+            <div>
+                <h2 class="h1 fw-semibold ">We Have some popular course</h2>
+                <p>We have lot of course..but we have some popular course which course are take lot of students...here
+                    is
+                    some popular course...</p>
+            </div>
         </div>
 
 
         <section class="my-5">
-            <div class="row  row-cols-md-1 row-cols-lg-2 g-4">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
                 <div class="col">
 
-                    <div class="card  d-flex  flex-row gap-3">
-                        <img src="images/course/course-1.png" class="card-img-top" alt="...">
+                    <div class="card  d-flex flex-column flex-lg-row   gap-3">
+                        <img src="images/course/course-1.png" class="card-img-top img-fluid " alt="...">
                         <div class="card-body">
                             <h3 class="card-title">Build Responsive Real Website with HTML CSS, Udemy</h3>
 
@@ -127,84 +165,72 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card  d-flex flex-row gap-3">
+                    <div class="card  d-flex flex-column flex-lg-row gap-3">
                         <img src="images/course/course-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h3 class="card-title">Build Responsive Real Website with HTML CSS, Udemy</h3>
+                            <h3 class="card-title">Web developer bootcamp, colt steele.. Udemy</h3>
 
 
-                            <p class="card-text">This is responsive course of jonas...he is a good instructor in
-                                udemy..if you want to
-                                learn
-                                html
-                                css you can take this course...</p>
+                            <p class="card-text">Colt steele is a best teacher in udemy..his teaching style is
+                                awesome..and this is high quality web development bootcamp..in udemy web development
+                                course is best course</p>
                             <h4 class="text-primary">Price: $10</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card  d-flex flex-row gap-3">
+                    <div class="card  d-flex flex-column flex-lg-row gap-3">
                         <img src="images/course/course-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h3 class="card-title">Build Responsive Real Website with HTML CSS, Udemy</h3>
+                            <h3 class="card-title">Complate javaScript course, jonas Udemy</h3>
 
 
-                            <p class="card-text">This is responsive course of jonas...he is a good instructor in
-                                udemy..if you want to
-                                learn
-                                html
-                                css you can take this course...</p>
+                            <p class="card-text">In udemy , lot of javaScript course have..but jonas javaScript course
+                                is best course in udemy..it is also high quality javaScript course</p>
                             <h4 class="text-primary">Price: $10</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card  d-flex flex-row gap-3">
+                    <div class="card  d-flex flex-column flex-lg-row gap-3">
                         <img src="images/course/course-4.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h3 class="card-title">Build Responsive Real Website with HTML CSS, Udemy</h3>
+                            <h3 class="card-title">Complate React course, colt steele, Udemy</h3>
 
 
-                            <p class="card-text">This is responsive course of jonas...he is a good instructor in
-                                udemy..if you want to
-                                learn
-                                html
-                                css you can take this course...</p>
+                            <p class="card-text">Personaly i like to colt steele teaching style..and that's i take his
+                                react course also..this course also mind blowing course</p>
                             <h4 class="text-primary">Price: $10</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card d-flex flex-row gap-3">
+                    <div class="card d-flex flex-column flex-lg-row gap-3">
                         <img src="images/course/course-5.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h3 class="card-title">Build Responsive Real Website with HTML CSS, Udemy</h3>
+                            <h3 class="card-title">Complete Web development course, jhankar Mahbub, PHero</h3>
 
 
-                            <p class="card-text">This is responsive course of jonas...he is a good instructor in
-                                udemy..if you want to
-                                learn
-                                html
-                                css you can take this course...</p>
-                            <h4 class="text-primary">Price: $10</h4>
+                            <p class="card-text">This is one of the best web development course i ever seen..every
+                                student love this course..because all instructor so so seriously for teach
+                                students..they are all friendly</p>
+                            <h4 class="text-primary">Price: $65</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card d-flex flex-row gap-3">
+                    <div class="card d-flex flex-column flex-lg-row gap-3">
 
 
                         <img src="images/course/course-6.png" class="card-img-top" alt="...">
 
                         <div class="card-body">
-                            <h3 class="card-title">Build Responsive Real Website with HTML CSS, Udemy</h3>
+                            <h3 class="card-title">Data Structure and algorithms Udemy</h3>
 
 
-                            <p class="card-text">This is responsive course of jonas...he is a good instructor in
-                                udemy..if you want to
-                                learn
-                                html
-                                css you can take this course...</p>
+                            <p class="card-text">Data structure ans algorithms is so important for a programmer...that's
+                                why every programmer need to learn Dsa..In this industry have a lot of quality data
+                                structure algorithms course...So many students take dsa course</p>
                             <h4 class="text-primary">Price: $10</h4>
                         </div>
 
@@ -220,7 +246,7 @@
             <!-- d-flex gap-5 bg-light align-items-center " -->
             <div class="row row-cols-md-2 bg-light align-items-center ">
                 <div>
-                    <img src="images/working.png" alt="">
+                    <img class="img-fluid" src="images/working.png" alt="">
                 </div>
                 <div>
                     <h2 class="display-5 fw-bold">Our Courses learning
@@ -298,12 +324,15 @@
         <!-- -------------------------------------------------- -->
         <!-- ------------------Successful Student---------------- -->
         <article class="w-100 text-lg-start text-center">
-            <div class="w-50 my-5">
+            <div class="my-5">
+
                 <h2 class="display-5 fw-semibold">
                     Meet Our successful Students
                 </h2>
-                <p>We have lot of successful student..but here is some students who are the best student in our industry
+                <p>We have lot of successful student..but here is some students who are the best student in our
+                    industry
                 </p>
+
             </div>
         </article>
         <!------------ Our Students --------------->
@@ -352,10 +381,13 @@
 
         <!-- students feedback -->
         <article>
-            <div class="w-50 mx-auto text-center mb-5">
-                <h2 class="display-6 fw-semibold">Some student feedback about our Course</h2>
-                <p class="h5 text-secondary">Here is some feedback about our course...you can read our students
-                    feedback...</p>
+            <!-- w-50 mx-auto text-center -->
+            <div class="mb-5 row row-cols-lg-2 row-cols-1 d-flex justify-content-center align-items-center">
+                <div class="text-center ">
+                    <h2 class="display-6 fw-semibold">Some student feedback about our Course</h2>
+                    <p class="h5 text-secondary">Here is some feedback about our course...you can read our students
+                        feedback...</p>
+                </div>
             </div>
         </article>
         <!-- /////////////////////////////////////////////////////// -->
@@ -376,8 +408,8 @@
                                 </div>
                             </div>
 
-                            <p class="card-text py-3">Before this is industry course i don't know what is web
-                                Designer..after
+                            <p class="card-text py-3">Before i join this industry course i don't know what is web
+                                Designer..and how to think a UI/UX designer ..after
                                 finish this course i am a UI/UX designer..and i can make any beautiful website..all
                                 instructor also so helpful..it is perfect place for learn skill development...
                             </p>
@@ -434,15 +466,20 @@
 
         <!-- frequently question -->
         <article>
-            <div class="w-50 mx-auto text-center mb-5">
-                <h2 class="display-6 fw-semibold">Frequently Asked Questions</h2>
-                <p class="h5 text-secondary">Here is some frequently question about our course...you can read...</p>
+            <!-- w-50 mx-auto text-center -->
+            <div
+                class="row row-cols-lg-2 row-cols-1 d-flex flex-column justify-content-start align-items-center text-center  mb-5">
+                <div>
+                    <h2 class="display-6 fw-semibold">Frequently Asked Questions</h2>
+                    <p class="h5 text-secondary">Here is some frequently question about our course...you can read...</p>
+                </div>
             </div>
         </article>
 
         <!-- ----------Here is Frequently all question----------- -->
         <section class="my-5">
-            <div class="accordion w-50 mx-auto" id="accordionPanelsStayOpenExample">
+            <div class="accordion row row-cols-md-2 d-flex justify-content-center align-items-center flex-column row-cols-1"
+                id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -595,7 +632,7 @@
         <!-- --------------trusted companies--------- -->
         <section class="my-5">
             <h2 class="display-5 fw-semibold text-center mb-5">Trusted by over 800+ companies</h2>
-            <div class="row  row-cols-lg-6 row-cols-md-3 row-cols-1">
+            <div class="row  row-cols-lg-6 row-cols-md-3 row-cols-1 text-center">
                 <div class="g-5"><img src="images/company/company-1.png" alt=""></div>
                 <div class="g-5"><img src="images/company/company-2.png" alt=""></div>
                 <div class="g-5"><img src="images/company/company-3.png" alt=""></div>
@@ -609,13 +646,15 @@
 
     <!-- --------------footer------------- -->
     <footer class="container p-5 my-5 ">
-        <div class="w-50 mx-auto text-center text-light">
-            <h2 class="display-5 fw-semibold">Educational Website</h2>
-            <p class="text-white-50">ffice 41, Zawaya Buildin, Ghala Muscat,
+        <!-- w-50 mx-auto text-center -->
+        <div class="row row-cols-lg-2 row-cols-1 justify-content-center align-items-center text-center text-light">
+            <div>
+                <h2 class="display-5 fw-semibold">Educational Website</h2>
+                <p class="text-white-50">ffice 41, Zawaya Buildin, Ghala Muscat,
 
-                Sultanate of Oman</p>
-            <p><small class="text-white-50">Privacy Ploicy | Terms of use</small></p>
-
+                    Sultanate of Oman</p>
+                <p><small class="text-white-50">Privacy Ploicy | Terms of use</small></p>
+            </div>
         </div>
         <div class="text-center">
             <div class="fs-3">
